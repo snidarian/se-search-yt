@@ -70,9 +70,31 @@ def search_global_navigation_bar(search_term, video_count) -> None:
 # This is the most important function in the program - gotta get it right
 # gather results from search made with 'search_global_navigation_bar' function
 def gather_video_results(video_count) -> list:
+    video_counter = 1
+    gathering_metadata_list = []
+    total_page_count = (video_count // 19)
+    if total_page_count < 1:
+        total_page_count = 1
+    for page_index in range(1, (total_page_count+1), 1):
+        # Try to locate item at {video_index} index
+        for video_index in range(1, 20, 1):
+            
+            video_title = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, f'/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[{page_index}]/div[3]/ytd-video-renderer[{video_index}]/div[1]/div/div[1]/div/h3/a/yt-formatted-string')))
+            video_title = video_title.text
+            video_link = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, f'/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[{page_index}]/div[3]/ytd-video-renderer[{video_index}]/div[1]/div/div[1]/div/h3/a'))).get_attribute('href')
+            gathering_metadata_list.append([video_counter,video_title, video_link])
+            video_counter+=1
+            
+            
+        # After each page issue a series of PGDOWN keys to make sure the next set of videos is loading
+        scroll_to_unlock_next_video_set()
+    return gathering_metadata_list
     
-    pass
-
+    video_title = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[1]/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a/yt-formatted-string')))
+    video_title = video_title.text
+    video_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[1]/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a'))).get_attribute('href')
+    # Formatted string
+    print(f"{video_title} @ {video_link}")
 
 def scroll_to_unlock_next_video_set() -> None:
     # Where the Page down keys are sent
@@ -85,7 +107,8 @@ def scroll_to_unlock_next_video_set() -> None:
 
 
 def print_video_results(metadata_list) -> None:
-    pass
+    for video in metadata_list:
+        print(f"{video[0]}. {GREEN}{video[1]}{RESET} {YELLOW}{video[2]}{RESET}")
 
 
 def main() -> None:
@@ -105,7 +128,7 @@ def main() -> None:
     finalized_metadata_list = gather_video_results(args.count)
 
     # Print the video metadata in concise and color-formatted output
-    #print_video_results(finalized_metadata_list)
+    print_video_results(finalized_metadata_list)
 
 
 if __name__=="__main__":

@@ -67,8 +67,10 @@ def search_global_navigation_bar(search_term, video_count) -> None:
     search_box.send_keys(Keys.RETURN)
 
 
+# This is the most important function in the program - gotta get it right
 # gather results from search made with 'search_global_navigation_bar' function
 def gather_video_results(video_count) -> list:
+    
     pass
 
 

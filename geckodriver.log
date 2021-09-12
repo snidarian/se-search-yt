@@ -159,3 +159,12 @@ JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeErr
 1631456241395	Marionette	INFO	Stopped listening on port 33891
 JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
 JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1631456468357	Marionette	INFO	Stopped listening on port 33713

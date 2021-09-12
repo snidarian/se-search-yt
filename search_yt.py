@@ -60,13 +60,29 @@ def search_global_navigation_bar(search_term, video_count) -> None:
     search_box = WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, 'input')))
     # Send the search term to the globalnav bar
     print(f'Searching for {RED}{video_count}{RESET} videos with the term {GREEN}{search_term}{RESET}')
-    print(search_box)
+    #print(search_box)
     search_box.send_keys(f"{search_term}")
+    # a pause here is necessary between key entries - not sure precisely why
+    time.sleep(0.8)
     search_box.send_keys(Keys.RETURN)
 
 
 # gather results from search made with 'search_global_navigation_bar' function
-def gather_video_results() -> list:
+def gather_video_results(video_count) -> list:
+    pass
+
+
+def scroll_to_unlock_next_video_set() -> None:
+    # Where the Page down keys are sent
+    html = driver.find_element_by_tag_name('html')
+    for _ in range(10):
+        html.send_keys(Keys.PAGE_DOWN)
+        time.sleep(.4)
+
+
+
+
+def print_video_results(metadata_list) -> None:
     pass
 
 
@@ -77,11 +93,17 @@ def main() -> None:
     args = parser.add_argument("-c", "--count", help="Number of video results (default 15)", type=int, default=15)
     args = parser.parse_args()
 
+    # Get request to the youtube mainpage
     reach_youtube_main_page()
+
+    # Enter search term into global navigation bar
     search_global_navigation_bar(args.query, args.count)
 
-    time.sleep(5)
+    # Search through the results and gather video metadata
+    finalized_metadata_list = gather_video_results(args.count)
 
+    # Print the video metadata in concise and color-formatted output
+    #print_video_results(finalized_metadata_list)
 
 
 if __name__=="__main__":

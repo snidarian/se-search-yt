@@ -1,0 +1,161 @@
+1631454777304	geckodriver	INFO	Listening on 127.0.0.1:60737
+1631454779536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGO9O01"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631454781236	Marionette	INFO	Listening on port 45213
+1631454781245	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631454785210	Marionette	INFO	Stopped listening on port 45213
+1631454793144	geckodriver	INFO	Listening on 127.0.0.1:50433
+1631454795341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJJw0hF"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631454796989	Marionette	INFO	Listening on port 44711
+1631454797066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631454832946	geckodriver	INFO	Listening on 127.0.0.1:40021
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1631454834880	Marionette	INFO	Stopped listening on port 44711
+1631454835208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV80RTN"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631454836845	Marionette	INFO	Listening on port 44863
+1631454836915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1631454843713	Marionette	INFO	Stopped listening on port 44863
+1631455264861	geckodriver	INFO	Listening on 127.0.0.1:56821
+1631455267097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYLnf3N"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455268818	Marionette	INFO	Listening on port 46781
+1631455268902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631455308743	geckodriver	INFO	Listening on 127.0.0.1:44747
+1631455310959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8V7uIw"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455312675	Marionette	INFO	Listening on port 36241
+1631455312764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631455322488	Marionette	INFO	Stopped listening on port 36241
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1631455335393	Marionette	INFO	Stopped listening on port 46781
+1631455615242	geckodriver	INFO	Listening on 127.0.0.1:45107
+1631455617472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefuxJq8"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455619171	Marionette	INFO	Listening on port 37467
+1631455619189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1631455642479	Marionette	INFO	Stopped listening on port 37467
+1631455723350	geckodriver	INFO	Listening on 127.0.0.1:43267
+1631455725683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyooapU"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455727324	Marionette	INFO	Listening on port 36529
+1631455727389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631455736883	Marionette	INFO	Stopped listening on port 36529
+1631455758680	geckodriver	INFO	Listening on 127.0.0.1:55767
+1631455760902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR1WtAC"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455762590	Marionette	INFO	Listening on port 43091
+1631455762618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1631455788948	Marionette	INFO	Stopped listening on port 43091
+1631455790622	geckodriver	INFO	Listening on 127.0.0.1:52713
+1631455792849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex4oGlp"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455794540	Marionette	INFO	Listening on port 39893
+1631455794559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.youtube.com"
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: resource://formautofill/FormAutofillChild.jsm, line 107: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1631455856027	Marionette	INFO	Stopped listening on port 39893
+1631455858450	geckodriver	INFO	Listening on 127.0.0.1:43977
+1631455860699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley7mYAa"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455862373	Marionette	INFO	Listening on port 33891
+1631455862435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631455922400	geckodriver	INFO	Listening on 127.0.0.1:59225
+1631455924627	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb91aCS"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631455926299	Marionette	INFO	Listening on port 44509
+1631455926356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631455944383	Marionette	INFO	Stopped listening on port 44509
+1631456236796	geckodriver	INFO	Listening on 127.0.0.1:57053
+1631456239087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefAdlsp"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631456240748	Marionette	INFO	Listening on port 33713
+1631456240809	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631456241395	Marionette	INFO	Stopped listening on port 33891
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement

@@ -90,11 +90,6 @@ def gather_video_results(video_count) -> list:
         scroll_to_unlock_next_video_set()
     return gathering_metadata_list
     
-    video_title = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[1]/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a/yt-formatted-string')))
-    video_title = video_title.text
-    video_link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '/html/body/ytd-app/div/ytd-page-manager/ytd-search/div[1]/ytd-two-column-search-results-renderer/div/ytd-section-list-renderer/div[2]/ytd-item-section-renderer[1]/div[3]/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a'))).get_attribute('href')
-    # Formatted string
-    print(f"{video_title} @ {video_link}")
 
 def scroll_to_unlock_next_video_set() -> None:
     # Where the Page down keys are sent

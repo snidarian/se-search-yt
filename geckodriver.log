@@ -652,3 +652,17 @@ JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: 
 1631467546218	Marionette	INFO	Stopped listening on port 40171
 1631467547204	Marionette	INFO	Stopped listening on port 37341
 JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631467701194	geckodriver	INFO	Listening on 127.0.0.1:44417
+1631467703471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileooGLMR"
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/ExtensionContent.jsm, line 567: TypeError: PrecompiledScript.executeInGlobal: Argument 1 is not an object.
+1631467705138	Marionette	INFO	Listening on port 33043
+1631467705194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript error: resource://gre/modules/ExtensionCommon.jsm, line 2302: Error: primed listener not re-registered
+JavaScript warning: https://thepiratebay.org/static/main.js, line 51: unreachable code after return statement
+1631467752801	Marionette	INFO	Stopped listening on port 33043
+1631467755732	Marionette	INFO	Stopped listening on port 40677
